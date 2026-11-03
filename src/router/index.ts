@@ -1,6 +1,8 @@
-import { createRouter, createWebHistory } from 'vue-router'
+// Components
+import DashboardView from '@/views/DashboardView.vue'
 
-import WelcomeItem from '@/components/TheWelcome.vue'
+// Utils
+import { createRouter, createWebHistory } from 'vue-router'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -8,7 +10,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: WelcomeItem,
+      component: DashboardView,
     },
     {
       path: '/jobs',
@@ -24,14 +26,19 @@ const router = createRouter({
       path: '/dev',
       children: [
         {
-        path: '',
-        name: 'dev',
-        component: () => import('@/views/dev/DevHome.vue'),
+          path: '',
+          name: 'dev',
+          component: () => import('@/views/dev/DevHome.vue'),
         },
         {
-        path: 'components',
-        name: 'dev-components',
-        component: () => import('@/views/dev/DevComponents.vue'),
+          path: 'components',
+          name: 'dev-components',
+          component: () => import('@/views/dev/DevComponents.vue'),
+        },
+        {
+          path: 'colors',
+          name: 'dev-colors',
+          component: () => import('@/views/dev/DevColors.vue'),
         },
       ],
     },

@@ -1,0 +1,21 @@
+@use './_variables.scss';
+@use './_dev.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+html {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--var-background);
+    color: var(--var-text);
+}
+
+#app {}
+
+main {}

@@ -1,0 +1,74 @@
+:root {
+    // ==================================================
+    // COLORS
+    // ==================================================
+    
+    // Backgrounds
+    --var-background: #f5f5f2;
+    --var-text: #1d1d1b;
+    --var-background-dark: #161615;
+    --var-text-dark: #f1f1ec;
+    --var-container: #ffffff;
+    --var-container-dark: #1d1d1b;
+    --var-border: #d1d1cd;
+
+    // Primary
+    --var-primary: #1b48c9;
+    --var-on-primary: #ffffff;
+    --var-primary-light: #7fabfa;
+    --var-on-primary-light: #0f172a;
+    --var-primary-lighter: #b0cbfc;
+    --var-on-primary-lighter: #0f172a;
+    --var-primary-dark: #1637a0;
+    --var-on-primary-dark: #ffffff;
+    --var-primary-darker: #0f2870;
+    --var-on-primary-darker: #ffffff;
+
+    // Danger
+    --var-danger: #a81a1a;
+    --var-on-danger: #ffffff;
+    --var-danger-light: #f28b8b;
+    --var-on-danger-light: #0f172a;
+    --var-danger-lighter: #f8b4b4;
+    --var-on-danger-lighter: #0f172a;
+    --var-danger-dark: #770f0f;
+    --var-on-danger-dark: #ffffff;
+    --var-danger-darker: #4e0808;
+    --var-on-danger-darker: #ffffff;
+
+    // Warning
+   --var-warning-lighter: #fff6a3;
+    --var-on-warning-lighter: #0f172a;
+    --var-warning-light: #ffeb4d;
+    --var-on-warning-light: #0f172a;
+    --var-warning: #ffd60a;
+    --var-on-warning: #0f172a;
+    --var-warning-dark: #9c8200;
+    --var-on-warning-dark: #ffffff;
+    --var-warning-darker: #403700;
+    --var-on-warning-darker: #ffffff;
+
+    // Success
+    --var-success-lighter: #b4f5cb;
+    --var-on-success-lighter: #0f172a;
+    --var-success-light: #5fe08d;
+    --var-on-success-light: #0f172a;
+    --var-success: #22c55e;
+    --var-on-success: #0f172a;
+    --var-success-dark: #0f6429;
+    --var-on-success-dark: #ffffff;
+    --var-success-darker: #0a4220;
+    --var-on-success-darker: #ffffff;
+
+    // Info
+    --var-info-lighter: #b3e3fa;
+    --var-on-info-lighter: #0f172a;
+    --var-info-light: #6cc9f0;
+    --var-on-info-light: #0f172a;
+    --var-info: #2eb4ea;
+    --var-on-info: #0f172a;
+    --var-info-dark: #0b5f82;
+    --var-on-info-dark: #ffffff;
+    --var-info-darker: #083a52;
+    --var-on-info-darker: #ffffff;
+}
